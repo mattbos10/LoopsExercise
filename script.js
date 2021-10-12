@@ -25,4 +25,38 @@ while (harryPotterMovies < 8) {
 }
 // 4c
 console.log(harryPotterMovies);
+
 // BONUS
+// 5a
+const hogwartsHouses = [
+    "Gryffindor",
+    "Hufflepuff",
+    "Ravenclaw",
+    "Slytherin"
+];
+// 5b
+for (houses of hogwartsHouses) {
+    for (letters of houses){
+        console.log(letters);
+    }
+};
+// 6a
+const quote = [
+    "Yer",
+    "A",
+    "Wizard",
+    "Harry"
+];
+// 6b
+let sentence = "";
+for (word of quote) {
+    sentence += word + " ";           //same as sentence = sentence + `${word} `;
+}
+console.log(sentence);
+
+// OR
+
+// while (quote !== sentence) {
+//     console.log(quote.join(" "));
+//     break;
+// }
